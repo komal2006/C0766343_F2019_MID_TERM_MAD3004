@@ -10,7 +10,7 @@ import Foundation
 class Bill
 {
     var billID: Int!
-    var billDATE: Date!
+    var billDate: Date!
     var billType: BillTypes
     enum BillTypes
     {
