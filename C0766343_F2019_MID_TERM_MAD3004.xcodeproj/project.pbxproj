@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9B51ACE2235BB97400D88F21 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51ACE1235BB97400D88F21 /* main.swift */; };
+		9B51ACE9235BBA1300D88F21 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51ACE8235BBA1300D88F21 /* Bill.swift */; };
+		9B51ACEB235BBC7500D88F21 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51ACEA235BBC7500D88F21 /* Hydro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		9B51ACDE235BB97400D88F21 /* C0766343_F2019_MID_TERM_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C0766343_F2019_MID_TERM_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B51ACE1235BB97400D88F21 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B51ACE8235BBA1300D88F21 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		9B51ACEA235BBC7500D88F21 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				9B51ACE1235BB97400D88F21 /* main.swift */,
+				9B51ACE8235BBA1300D88F21 /* Bill.swift */,
+				9B51ACEA235BBC7500D88F21 /* Hydro.swift */,
 			);
 			path = C0766343_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -119,6 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B51ACE9235BBA1300D88F21 /* Bill.swift in Sources */,
+				9B51ACEB235BBC7500D88F21 /* Hydro.swift in Sources */,
 				9B51ACE2235BB97400D88F21 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
