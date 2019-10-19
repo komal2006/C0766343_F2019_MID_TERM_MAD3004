@@ -11,6 +11,11 @@
 		9B51ACE9235BBA1300D88F21 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51ACE8235BBA1300D88F21 /* Bill.swift */; };
 		9B51ACEB235BBC7500D88F21 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51ACEA235BBC7500D88F21 /* Hydro.swift */; };
 		9B51ACED235BBEBE00D88F21 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51ACEC235BBEBE00D88F21 /* Internet.swift */; };
+		9B51ACEF235BC29200D88F21 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51ACEE235BC29200D88F21 /* Mobile.swift */; };
+		9B51ACF1235BC4B600D88F21 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51ACF0235BC4B600D88F21 /* IDisplay.swift */; };
+		9B51ACF3235BC61100D88F21 /* extension+currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51ACF2235BC61100D88F21 /* extension+currency.swift */; };
+		9B51ACF5235BC70C00D88F21 /* extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51ACF4235BC70C00D88F21 /* extension+Int.swift */; };
+		9B51ACF7235BC8C800D88F21 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51ACF6235BC8C800D88F21 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +36,11 @@
 		9B51ACE8235BBA1300D88F21 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		9B51ACEA235BBC7500D88F21 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9B51ACEC235BBEBE00D88F21 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		9B51ACEE235BC29200D88F21 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9B51ACF0235BC4B600D88F21 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		9B51ACF2235BC61100D88F21 /* extension+currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+currency.swift"; sourceTree = "<group>"; };
+		9B51ACF4235BC70C00D88F21 /* extension+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Int.swift"; sourceTree = "<group>"; };
+		9B51ACF6235BC8C800D88F21 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +77,11 @@
 				9B51ACE8235BBA1300D88F21 /* Bill.swift */,
 				9B51ACEA235BBC7500D88F21 /* Hydro.swift */,
 				9B51ACEC235BBEBE00D88F21 /* Internet.swift */,
+				9B51ACEE235BC29200D88F21 /* Mobile.swift */,
+				9B51ACF0235BC4B600D88F21 /* IDisplay.swift */,
+				9B51ACF2235BC61100D88F21 /* extension+currency.swift */,
+				9B51ACF4235BC70C00D88F21 /* extension+Int.swift */,
+				9B51ACF6235BC8C800D88F21 /* Customer.swift */,
 			);
 			path = C0766343_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -128,8 +143,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B51ACEF235BC29200D88F21 /* Mobile.swift in Sources */,
+				9B51ACF5235BC70C00D88F21 /* extension+Int.swift in Sources */,
 				9B51ACE9235BBA1300D88F21 /* Bill.swift in Sources */,
+				9B51ACF1235BC4B600D88F21 /* IDisplay.swift in Sources */,
 				9B51ACEB235BBC7500D88F21 /* Hydro.swift in Sources */,
+				9B51ACF3235BC61100D88F21 /* extension+currency.swift in Sources */,
+				9B51ACF7235BC8C800D88F21 /* Customer.swift in Sources */,
 				9B51ACED235BBEBE00D88F21 /* Internet.swift in Sources */,
 				9B51ACE2235BB97400D88F21 /* main.swift in Sources */,
 			);
