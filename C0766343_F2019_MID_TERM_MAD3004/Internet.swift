@@ -9,5 +9,7 @@
 import Foundation
 class Internet
 {
+    var providerName: String!
+    var usedGB: Int!
     
 }
