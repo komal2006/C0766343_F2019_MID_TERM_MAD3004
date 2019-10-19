@@ -23,8 +23,8 @@ class Customer
     init(customerID:Int,customerFirstName: String,customerLastName:String,customerEmail:String)
     {
         self.customerID=customerID
-        self.customerFirstName=customerFName
-        self.customerLastName=customerLName
+        self.customerFirstName=customerFirstName
+        self.customerLastName=customerLastName
         self.customerEmail=customerEmail
     }
 }
