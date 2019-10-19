@@ -19,7 +19,7 @@ class Bill
     }
     var totalBillAmount: Double!
     
-    init(billID:Int,billDate:String,billType:Types,totalAmount:Double) {
+    init(billID:Int,billDate:String,billType:Types,totalBillAmount:Double) {
         self.billDate=billDate
         self.billID=billID
         self.totalBillAmount=totalAmount
