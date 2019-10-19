@@ -25,4 +25,15 @@ init(billID: Int, billDate: String, billType: Types, totalBillAmount: Double
     self.mobileInternet=mobileInternet
     self.mobileMinute=mobileMinute
 }
+    
+    
+       override func display()
+       {
+        super.display()
+        print("Manufacturer Name : \(mobileModel!)")
+        print("Plan Name : \(planName!)")
+        print("Mobile Number : \(mobileNumber!)")
+        print("Internet Usage : \(mobileInternet!.GB())")
+        print("Minute Usage : \(mobileMinute!.Min())")
+
 }
