@@ -9,22 +9,20 @@
 import Foundation
 class Bill
 {
-    var billID: Int!
-    var billDate: Date!
-    var billType: BillTypes
-    enum BillTypes
-    {
+    var billID = Int()
+    var billDate = String()
+    var billType : Types
+    enum Types {
+        case Internet
         case Hydro
         case Mobile
-        case Internet
     }
     var totalBillAmount: Double!
     
-    init(billID: Int, billDATE: Date!, billType: BillTypes, totalBillAmount: Double!)
-    {
-        self.billID = billID
-        self.billDATE = billDATE
-        self.billType = billType
-        self.totalBillAmount = totalBillAmount
+    init(billID:Int,billDate:String,billType:Types,totalAmount:Double) {
+        self.billDate=billDate
+        self.billID=billID
+        self.totalBillAmount=totalAmount
+        self.billType=billType
     }
 }
