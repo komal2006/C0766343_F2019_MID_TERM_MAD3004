@@ -26,3 +26,4 @@ class Hydro : Bill
         print("Agency Name : \(agencyName!)")
         print("Units Consumed : \(consumedUnits!.Units())")
 }
+}
