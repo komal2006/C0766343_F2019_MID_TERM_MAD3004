@@ -55,3 +55,11 @@ AddCustomer(customer: customer3)
 AddCustomer(customer: customer4)
 
 
+for c in custDictionary.keys
+{
+    
+    custDictionary[c]?.display()
+    
+}
+
+
