@@ -10,4 +10,12 @@ import Foundation
 
 
 var hydro1  = Hydro(billID: 2 , billDate: "11/23/2018", billType: .Hydro, totalBillAmount: 176.18      , agencyName: "Planet Energy", consumedUnits: 160)
-var hydro2 = Hydro(billID: 1, billDate: "05/09/2019", billType: .Hydro, totalBillAmount: 116.73, agencyName: "Water Canada", consumedUnits: 155)
+var hydro2 = Hydro(billID: 1, billDate: "05/08/2019", billType: .Hydro, totalBillAmount: 116.73, agencyName: "Water Canada", consumedUnits: 155)
+
+
+
+var internet1 = Internet(billID: 01, billDate: "05/09/2019", billType:.Internet, totalBillAmount: 54.569, providerName: "Fido", usedGB: 50)
+var internet2 = Internet(billID: 02, billDate: "07/19/2019", billType: .Internet, totalBillAmount: 156.654, providerName: "Bell", usedGB: 102)
+
+
+
