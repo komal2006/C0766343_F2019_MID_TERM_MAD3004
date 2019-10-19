@@ -29,4 +29,22 @@ var customer3 = Customer(customerID: 3, customerFirstName: "Charan", customerLas
 var customer4 = Customer(customerID: 4, customerFirstName: "Harmanpreet", customerLastName: "Singh", customerEmail: "harmansandhu57@gmail.com ")
 
 
+customer1.addbill(BillObj: internet1)
+customer1.addbill(BillObj: mobile1)
+customer1.addbill(BillObj: hydro1)
+customer2.addbill(BillObj: internet2)
+customer3.addbill(BillObj: hydro2)
+
+
+var custDictionary = [Int:Customer]()
+
+func AddCustomer(customer: Customer)
+{
+    custDictionary.updateValue(customer, forKey: customer.customerID!)
+}
+
+AddCustomer(customer: customer1)
+AddCustomer(customer: customer2)
+AddCustomer(customer: customer3)
+AddCustomer(customer: customer4)
 
