@@ -47,10 +47,7 @@ func AddCustomer(customer: Customer)
 }
 
 
-for c in custDictionary.keys.sorted()
-{
-    custDictionary[c]!.display()
-}
+
 
 AddCustomer(customer: customer1)
 AddCustomer(customer: customer2)
@@ -58,13 +55,3 @@ AddCustomer(customer: customer3)
 AddCustomer(customer: customer4)
 
 
-func getCustomerById (customerID: Int)
-{    if custDictionary.keys.contains(customerID)
-{
-    custDictionary[customerID]!.display()
-}
-else{
-    print("This CustomerID doesnot Exist")
-    }
-    
-}

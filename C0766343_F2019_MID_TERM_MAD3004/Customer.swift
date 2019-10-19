@@ -13,7 +13,7 @@ class Customer
     var customerFirstName: String?
     var customerLastName : String?
     var fullName : String{
-        return customerFirstName! + " " + customerLastName!
+        return "\(customerFirstName!) \(customerLastName!)"
     }
     var customerEmail: String?
     var billDictionary = [Int:Bill]()
@@ -31,7 +31,7 @@ class Customer
     
     func addbill(BillObj: Bill)
     {
-        billDictionary.updateValue(BillObj, forKey: Bill1.billID)
+        billDictionary.updateValue(BillObj, forKey: BillObj.billID)
     }
     
    
