@@ -18,8 +18,8 @@ var internet1 = Internet(billID: 01, billDate: "05/09/2019", billType:.Internet,
 var internet2 = Internet(billID: 02, billDate: "07/19/2019", billType: .Internet, totalBillAmount: 156.654, providerName: "Bell", usedGB: 102)
 
 
-var mobile1 = Mobile(billID: 101, billDate: "07/19/2019", billType: .Mobile, totalBillAmount: 256.98, mobileModel: "Samsung S8 Pro", mobileNumber: 9876543210, planName: "Prepaid Talk + Text Plan", mobileInternet: 34, mobileMinute: 1000)
-
+var mobile1 = Mobile(billID: 101, billDate: "07/19/2019", billType: .Mobile, totalBillAmount: 256.98, mobileModel: "Samsung S8 Pro", mobileNumber: 6478300129, planName: "Prepaid Talk + Text Plan", mobileInternet: 34, mobileMinute: 1000)
+var mobile2 = Mobile(billID: 102, billDate: "01/21/2019", billType: .Mobile, totalBillAmount: 200.00, mobileModel: "Samsung Galaxy A50", mobileNumber: 6470821483, planName: "Prepaid Talk", mobileInternet: 56, mobileMinute: 500)
 
 
 
