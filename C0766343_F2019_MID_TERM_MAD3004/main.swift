@@ -30,10 +30,12 @@ var customer4 = Customer(customerID: 4, customerFirstName: "Harmanpreet", custom
 
 
 customer1.addbill(BillObj: internet1)
-customer1.addbill(BillObj: mobile1)
+customer2.addbill(BillObj: mobile1)
+customer3.addbill(BillObj: mobile2)
+customer1.addbill(BillObj: mobile3)
 customer1.addbill(BillObj: hydro1)
-customer2.addbill(BillObj: internet2)
-customer3.addbill(BillObj: hydro2)
+customer3.addbill(BillObj: internet2)
+customer2.addbill(BillObj: hydro2)
 
 
 
