@@ -19,4 +19,10 @@ extension Int
         return "\(self) GB"
     }
     
+    
+    func Units() -> String
+    {
+        return "\(self) Units"
+    }
+    
 }
