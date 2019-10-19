@@ -37,3 +37,4 @@ init(billID: Int, billDate: String, billType: Types, totalBillAmount: Double
         print("Minute Usage : \(mobileMinute!.Min())")
 
 }
+}

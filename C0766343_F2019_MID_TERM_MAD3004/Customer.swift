@@ -9,5 +9,13 @@
 import Foundation
 class Customer
 {
-    
+    var customerID : Int?
+    var customerFirstName: String?
+    var customerLastName : String?
+    var fullName : String{
+        return customerFirstName! + " " + customerLastName!
+    }
+    var customerEmail: String?
+    var billDictionary = [Int:Bill]()
+    var totalAmount : Double?
 }
