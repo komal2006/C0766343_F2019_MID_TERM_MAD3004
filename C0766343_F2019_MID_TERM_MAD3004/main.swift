@@ -18,4 +18,15 @@ var internet1 = Internet(billID: 01, billDate: "05/09/2019", billType:.Internet,
 var internet2 = Internet(billID: 02, billDate: "07/19/2019", billType: .Internet, totalBillAmount: 156.654, providerName: "Bell", usedGB: 102)
 
 
-var mobile1 = Mobile(billID: 101, billDate: "07/19/2019", billType: .Mobile, totalBillAmount: 256.98, mobileModel: "Samsung S8 Pro", mobileNumber: 9876543210, planName: "Prepaid Talk + Text Plan", mobileInternet: 34, mobileMinute: 567)
+var mobile1 = Mobile(billID: 101, billDate: "07/19/2019", billType: .Mobile, totalBillAmount: 256.98, mobileModel: "Samsung S8 Pro", mobileNumber: 9876543210, planName: "Prepaid Talk + Text Plan", mobileInternet: 34, mobileMinute: 1000)
+
+
+
+
+var customer1 = Customer(customerID: 1, customerFirstName: "Komaldeep", customerLastName: "Kaur", customerEmail: "Komaldeepkr99@gmail.com " )
+var customer2 = Customer(customerID: 2, customerFirstName: "Varinder", customerLastName: "Dhillion", customerEmail: "varinderdhillion123@gmail.com ")
+var customer3 = Customer(customerID: 3, customerFirstName: "Charan", customerLastName: "preet", customerEmail: "charanpreet@gmail.com ")
+var customer4 = Customer(customerID: 4, customerFirstName: "Harmanpreet", customerLastName: "Singh", customerEmail: "harmansandhu57@gmail.com ")
+
+
+
