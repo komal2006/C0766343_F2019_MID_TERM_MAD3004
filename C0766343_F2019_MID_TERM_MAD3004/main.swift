@@ -36,6 +36,9 @@ customer2.addbill(BillObj: internet2)
 customer3.addbill(BillObj: hydro2)
 
 
+
+
+
 var custDictionary = [Int:Customer]()
 
 func AddCustomer(customer: Customer)
@@ -43,8 +46,16 @@ func AddCustomer(customer: Customer)
     custDictionary.updateValue(customer, forKey: customer.customerID!)
 }
 
+
+for c in custDictionary.keys.sorted()
+{
+    custDictionary[c]!.display()
+}
+
 AddCustomer(customer: customer1)
 AddCustomer(customer: customer2)
 AddCustomer(customer: customer3)
 AddCustomer(customer: customer4)
+
+
 
