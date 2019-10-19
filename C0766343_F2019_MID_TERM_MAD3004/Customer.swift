@@ -29,10 +29,10 @@ class Customer
     }
     
     
-    /*func addbill(BillObject: Bill)
+    func addbill(BillObj: Bill)
     {
-        billDictionary.updateValue(Bill1, forKey: Bill1.billID)
-    }*/
+        billDictionary.updateValue(BillObj, forKey: Bill1.billID)
+    }
     
    
     func calcTotal() -> Double
