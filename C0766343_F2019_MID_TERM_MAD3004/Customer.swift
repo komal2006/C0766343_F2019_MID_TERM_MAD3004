@@ -34,5 +34,19 @@ class Customer
         billDictionary.updateValue(Bill1, forKey: Bill1.billID)
     }*/
     
+   
+    func calcTotal() -> Double
+    {
+        var Sum: Double = 0.0
+        
+        for t in billDictionary.values
+        {
+            Sum += t.totalBillAmount
+            
+            
+        }
+        return Sum
+    }
+    
 
 }
