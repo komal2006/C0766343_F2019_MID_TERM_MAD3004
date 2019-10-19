@@ -7,10 +7,11 @@
 //
 
 import Foundation
-class Bill
+class Bill:IDisplay
 {
+    
     var billID = Int()
-    var billDate = String()
+    var billDate = String!
     var billType : Types
     enum Types {
         case Internet
@@ -19,10 +20,21 @@ class Bill
     }
     var totalBillAmount: Double!
     
+    
+    
     init(billID:Int,billDate:String,billType:Types,totalBillAmount:Double) {
         self.billDate=billDate
         self.billID=billID
-        self.totalBillAmount=totalAmount
+        self.totalBillAmount=totalBillAmount
         self.billType=billType
     }
+    
+    
+    func display() {
+        print("Bill ID : \(billID)")
+        print("Bill Date : \(billDate())")
+        print("Bill Type : \(billType)")
+        print("Bill Amount : \(totalBillAmount.Currency())")
+
+
 }

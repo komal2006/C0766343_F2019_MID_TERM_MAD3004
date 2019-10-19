@@ -12,6 +12,8 @@ class Internet : Bill
     var providerName: String!
     var usedGB: Int!
     
+    
+    
     init(billID: Int, billDate: String, billType: Types, totalBillAmount: Double, providerName: String!, usedGB: Int!)
     {
         super.init(billID: billID, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
@@ -19,4 +21,6 @@ class Internet : Bill
         self.usedGB=usedGB
         
     }
+    
+    
 }
