@@ -13,4 +13,10 @@ extension Int
     {
         return "\(self) Minutes"
     }
+    
+    func GB() -> String
+    {
+        return "\(self) GB"
+    }
+    
 }
