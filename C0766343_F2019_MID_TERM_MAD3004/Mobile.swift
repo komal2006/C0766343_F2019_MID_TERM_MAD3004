@@ -9,5 +9,9 @@
 import Foundation
 class Mobile
 {
-    
+    mobileModelName: String!
+    mobileNumber: Int!
+    planeName: String!
+    internetUsage: Int!
+    minutesUsage: Int!
 }

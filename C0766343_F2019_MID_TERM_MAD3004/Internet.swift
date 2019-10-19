@@ -14,7 +14,7 @@ class Internet : Bill
     
     init(billID: Int, billDate: String, billType: Types, totalBillAmount: Double, providerName: String!, usedGB: Int!)
     {
-        super.init(billID: billID, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
+        super.init(billID: billID, billDate: billDate, billType: billType, totalBillAmount: totalAmount)
         self.providerName=providerName
         self.usedGB=usedGB
         
