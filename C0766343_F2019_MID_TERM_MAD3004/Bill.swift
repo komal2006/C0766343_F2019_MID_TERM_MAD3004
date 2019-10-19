@@ -19,4 +19,12 @@ class Bill
         case Internet
     }
     var totalBillAmount: Double!
+    
+    init(billID: Int, billDATE: Date!, billType: BillTypes, totalBillAmount: Double!)
+    {
+        self.billID = billID
+        self.billDATE = billDATE
+        self.billType = billType
+        self.totalBillAmount = totalBillAmount
+    }
 }
