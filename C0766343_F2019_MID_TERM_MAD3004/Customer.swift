@@ -18,4 +18,13 @@ class Customer
     var customerEmail: String?
     var billDictionary = [Int:Bill]()
     var totalAmount : Double?
+    
+    
+    init(customerID:Int,customerFirstName: String,customerLastName:String,customerEmail:String)
+    {
+        self.customerID=customerID
+        self.customerFirstName=customerFName
+        self.customerLastName=customerLName
+        self.customerEmail=customerEmail
+    }
 }
