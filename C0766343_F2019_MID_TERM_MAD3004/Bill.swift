@@ -11,7 +11,7 @@ class Bill:IDisplay
 {
     
     var billID = Int()
-    var billDate = String!
+    var billDate = String()
     var billType : Types
     enum Types {
         case Internet
@@ -30,11 +30,13 @@ class Bill:IDisplay
     }
     
     
-    func display() {
+    func display()
+    {
         print("Bill ID : \(billID)")
-        print("Bill Date : \(billDate())")
+        print("Bill Date : \(billDate)")
         print("Bill Type : \(billType)")
-        print("Bill Amount : \(totalBillAmount.Currency())")
+        print("Bill Amount : \(totalBillAmount.currency())")
 
 
+}
 }
