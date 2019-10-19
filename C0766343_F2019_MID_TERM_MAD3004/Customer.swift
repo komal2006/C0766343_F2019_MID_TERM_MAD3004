@@ -48,5 +48,46 @@ class Customer
         return Sum
     }
     
+    
+    func display()
+    {
+        print("Customer ID : \(customerID!)")
+        print("Customer Full Name : \(fullName) ")
+        print("Customer Email: \(customerEmail!)")
+        print("     -  Billing Information - ")
+        print("-----------------------------------------")
+        if billDictionary.isEmpty
+        {
+            print("NOTE : This Customer has no Bills")
+        }
+        else
+        {
+            
+            for i in billDictionary.values
+                
+            {
+                
+                
+                i.display()
+                print("------------------------------")
+                
+            }
+        }
+        
+        
+            
+           
+            
+        }
+        
+        
+    }
 
-}
+        
+
+    
+    
+
+
+
+
