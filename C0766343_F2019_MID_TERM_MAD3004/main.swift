@@ -58,4 +58,13 @@ AddCustomer(customer: customer3)
 AddCustomer(customer: customer4)
 
 
-
+func getCustomerById (customerID: Int)
+{    if custDictionary.keys.contains(customerID)
+{
+    custDictionary[customerID]!.display()
+}
+else{
+    print("This CustomerID doesnot Exist")
+    }
+    
+}
