@@ -26,7 +26,7 @@ class Internet : Bill
     {
         super.display()
         print("Provider Name : \(providerName!)")
-        print("Internet Used GB : \(usedGB.GB())")
+        print("Internet Used GB : \(usedGB!.GB())")
     
     
 }

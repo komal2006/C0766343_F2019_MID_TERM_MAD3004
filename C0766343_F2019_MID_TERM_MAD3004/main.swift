@@ -15,7 +15,7 @@ var hydro2 = Hydro(billID: 2, billDate: "05/08/2019", billType: .Hydro, totalBil
 
 
 var internet1 = Internet(billID: 01, billDate: "05/09/2019", billType:.Internet, totalBillAmount: 54.569, providerName: "Fido", usedGB: 50)
-var internet2 = Internet(billID: 02, billDate: "07/19/2019", billType: .Internet, totalBillAmount: 156.654, providerName: "Bell", usedGB: 102)
+
 
 
 var mobile1 = Mobile(billID: 101, billDate: "07/19/2019", billType: .Mobile, totalBillAmount: 256.98, mobileModel: "Samsung S8 Pro", mobileNumber: 6478300129, planName: "Prepaid Talk + Text Plan", mobileInternet: 34, mobileMinute: 1000)
@@ -34,7 +34,7 @@ customer1.addbill(BillObj: mobile1)
 customer2.addbill(BillObj: mobile2)
 customer3.addbill(BillObj: mobile3)
 customer1.addbill(BillObj: hydro1)
-customer2.addbill(BillObj: internet2)
+
 customer2.addbill(BillObj: hydro2)
 
 
