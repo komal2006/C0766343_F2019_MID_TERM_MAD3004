@@ -34,7 +34,7 @@ init(billID: Int, billDate: String, billType: Types, totalBillAmount: Double
         print("Plan Name : \(planName!)")
         print("Mobile Number : \(mobileNumber!)")
         print("Internet Usage : \(mobileInternet!.GB())")
-        print("Minute Usage : \(mobileMinute!.Min())")
+        print("Minutes Usage : \(mobileMinute!.Min())")
 
 }
 }

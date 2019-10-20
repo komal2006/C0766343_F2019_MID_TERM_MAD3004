@@ -57,11 +57,12 @@ AddCustomer(customer: customer3)
 AddCustomer(customer: customer4)
 
 
-for c in custDictionary.keys
+
+
+for i in custDictionary.keys.sorted()
 {
-    
-    custDictionary[c]?.display()
-    
+    custDictionary[i]!.display()
 }
+
 
 
