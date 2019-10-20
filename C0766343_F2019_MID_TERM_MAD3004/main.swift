@@ -28,7 +28,7 @@ var customer3 = Customer(customerID: 3, customerFirstName: "Charan", customerLas
 var customer4 = Customer(customerID: 4, customerFirstName: "Harmanpreet", customerLastName: "Singh", customerEmail: "harmansandhu57@gmail.com ")
 
 
-customer1.addbill(BillObj: internet1)
+customer2.addbill(BillObj: internet1)
 customer1.addbill(BillObj: mobile1)
 customer2.addbill(BillObj: mobile2)
 customer3.addbill(BillObj: mobile3)
