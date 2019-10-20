@@ -26,8 +26,7 @@ init(billID: Int, billDate: String, billType: Types, totalBillAmount: Double
     self.mobileMinute=mobileMinute
 }
     
-    
-       override func display()
+      override func display()
        {
         super.display()
         print("Manufacturer Name : \(mobileModel!)")
