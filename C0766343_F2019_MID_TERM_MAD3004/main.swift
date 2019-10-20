@@ -56,7 +56,21 @@ AddCustomer(customer: customer2)
 AddCustomer(customer: customer3)
 AddCustomer(customer: customer4)
 
-
+func byCustomerId(customerId: Int)
+{
+    print("\n -----------------  DETAILS OF CUSTOMER ACCORDING TO ID----------------\n ")
+    if custDictionary.keys.contains(customerId)
+    {
+        custDictionary[customerId]?.display()
+    }
+    else
+    {
+        print("---------------------------------------")
+        print("Customer not found")
+        
+    }
+    
+}
 
 
 for i in custDictionary.keys.sorted()
@@ -65,4 +79,4 @@ for i in custDictionary.keys.sorted()
 }
 
 
-
+var j = byCustomerId(customerId: 1)
